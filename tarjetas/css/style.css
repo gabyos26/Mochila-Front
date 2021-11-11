@@ -1,0 +1,100 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color:#E5E5E5;
+}
+
+/*header descuento*/
+
+.descuento {
+    position: relative;
+    background-color: #1CD1B0;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+}
+
+/*header Heroes*/
+
+.heroes {
+    position: relative;
+    background-color: #00669F;
+    width: 100%;
+    padding: 30px;
+    font-size: 40px;
+    font-style: bold;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+/* Main */
+
+main {
+    position: absolute;
+    width: 960px;
+    bottom: 300px;
+    left: 32px;
+    top: 292px;
+}
+
+/* Primera card Batman*/
+
+.card {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 500px;
+    left: 32px;
+    top: -50px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.batman{
+    position: relative;
+    top: 80px;
+    left: 90px;
+    font-size: 30px;
+}
+
+.avatar {
+    position: absolute;
+    width: 120px;
+    border-radius: 50%;
+    left: 30%;
+    top: 25%;
+}
+
+p {
+    position: relative;
+    Width: 267px;
+    Height: 113px;
+    Top: 80px;
+    padding: 20px 0px 0px 20px;
+    font-size: 14px;
+}
+
+.mas {
+    position: relative;
+    width: 128.78px;
+    background-color: #00669F;
+    color: white;
+    text-align: center;
+    left: 90px;
+    top: 115px;
+}
+
+/* Harley card*/
+
+.harley{
+    position: relative;
+    top: 80px;
+    left: 65px;
+    font-size: 30px;
+}
