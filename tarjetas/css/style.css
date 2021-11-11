@@ -16,7 +16,7 @@ body {
 .descuento {
     position: relative;
     background-color: #1CD1B0;
-    width: 100%;
+    width: 1024px;
     padding: 20px;
     font-size: 15px;
 }
@@ -26,7 +26,7 @@ body {
 .heroes {
     position: relative;
     background-color: #00669F;
-    width: 100%;
+    width: 1024px;
     padding: 30px;
     font-size: 40px;
     font-style: bold;
@@ -36,21 +36,23 @@ body {
 /* Main */
 
 main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     position: absolute;
     width: 960px;
-    bottom: 300px;
-    left: 32px;
+    left: 10px;
     top: 292px;
 }
+
 
 /* Primera card Batman*/
 
 .card {
-    display: inline-block;
     position: relative;
     width: 300px;
-    height: 500px;
-    left: 32px;
+    height: 550px;
+    left: 15px;
     top: 60px;
     background: #F3F3F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -68,7 +70,7 @@ main {
     width: 120px;
     border-radius: 50%;
     left: 30%;
-    top: 25%;
+    top: 22%;
 }
 
 p {
@@ -80,14 +82,18 @@ p {
     font-size: 14px;
 }
 
-.mas {
+bottom {
+    display: block;
     position: relative;
-    width: 128.78px;
+    width: 110px;
+    height: 40px;
     background-color: #00669F;
     color: white;
-    text-align: center;
     left: 90px;
-    top: 115px;
+    top: 130px;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 13px;
 }
 
 .corazon{
@@ -109,7 +115,7 @@ p {
 
 .front {
     position: relative;
-    width: 100%;
+    width: 1024px;
     height: 51px;
     left: 0px;
     top: 972px;
