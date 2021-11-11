@@ -90,6 +90,12 @@ p {
     top: 115px;
 }
 
+.corazon{
+    position: absolute;
+    right: 250px;
+    top: 10px;
+}
+
 /* Harley card*/
 
 .harley{
