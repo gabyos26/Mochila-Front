@@ -1,0 +1,46 @@
+header {
+width: 1440px;
+height: 188.19px;
+background-color: #E6E6E6;
+}
+
+header div { 
+    text-align: center
+}
+
+header h1 {
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    width: 1440px;
+    height: 60px;
+    text-align: center;
+    color: #005677
+}
+
+h3 {
+width: 1440px;
+height: 30px;
+top: 381px;
+background-color: #C4C4C4;
+text-transform: uppercase;
+color: #005677
+}
+
+.text-decoracion1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-decoracion2 {
+    font-weight: bold
+}
+
+.text-puntos {
+    list-style: none
+}
+
+Footer {
+    text-align:center;
+background-color: #005677; 
+color:#FFFFFF
+}
